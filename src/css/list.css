@@ -1,0 +1,35 @@
+.list{
+    max-width: 200px;
+}
+
+.list .pokemon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6A727A;
+    color: #fff;
+    font-size: 2.5rem;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding: 10px 20px 10px 10px;
+    margin-bottom: 10px;
+    min-height: 70px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: 0.15s ease-in-out;
+    cursor: pointer;
+}
+
+.list .pokemon:hover {
+    transform: scale(1.05);
+}
+
+.list .pokemon img{
+    width: 25%;
+    border-radius: 50%;
+}
+
+.list .pokemon.active{
+    background-color: #FA6668;
+}
+
+
