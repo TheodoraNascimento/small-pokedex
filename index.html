@@ -3,13 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Pokedex</title>
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/variables.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/cards.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+
+   
 </head>
 <body>
     <main>
         <div class="pokedex">
             <div class="cards-pokemons">
-                <div class="card-pokemon">
+                <div class="card-pokemon type-eletric show">
                     <div class="card-top">
                         <div class="details">
                             <h2 class="name">Pikachu</h2>
@@ -25,17 +34,17 @@
                         <div class="stats">
                             <h3>Stats</h3>
                             <ul>
-                                <li>HP: 130</li>
-                                <li>Attack: 110</li>
-                                <li>Defense: 90</li>
-                                <li>Sp. Attack: 90</li>
-                                <li>Sp. Defense: 90</li>
-                                <li>Speed: 150</li>
-                                <li>Total: 660</li>
+                                <li><span>HP:</span> 130</li>
+                                <li><span>Attack:</span> 110</li>
+                                <li><span>Defense:</span> 90</li>
+                                <li><span>Sp. Attack:</span> 90</li>
+                                <li><span>Sp. Defense:</span> 90</li>
+                                <li><span>Speed:</span> 150</li>
+                                <li><span>Total:</span> 660</li>
                             </ul>
                         </div>
 
-                        <div class="Attacks">
+                        <div class="attacks">
                             <h3>Attacks</h3>
                             <ul>
                                 <li>Thunder Wave</li>
@@ -47,7 +56,7 @@
                     </div>
                 </div>
 
-                <div class="card-pokemon">
+                <div class="card-pokemon type-grass">
                     <div class="card-top">
                         <div class="details">
                             <h2 class="name">Bulbassaur</h2>
@@ -63,17 +72,17 @@
                         <div class="stats">
                             <h3>Stats</h3>
                             <ul>
-                                <li>HP: 150</li>
-                                <li>Attack: 105</li>
-                                <li>Defense: 90</li>
-                                <li>Sp. Attack: 110</li>
-                                <li>Sp. Defense: 120</li>
-                                <li>Speed: 90</li>
-                                <li>Total: 665</li>
+                                <li><span>HP:</span> 150</li>
+                                <li><span>Attack:</span> 105</li>
+                                <li><span>Defense:</span> 90</li>
+                                <li><span>Sp. Attack:</span> 110</li>
+                                <li><span>Sp. Defense:</span> 120</li>
+                                <li><span>Speed:</span> 90</li>
+                                <li><span>Total:</span> 665</li>
                             </ul>
                         </div>
 
-                        <div class="Attacks">
+                        <div class="attacks">
                             <h3>Attacks</h3>
                             <ul>
                                 <li>Poison Podwer</li>
@@ -85,7 +94,7 @@
                     </div>
                 </div>
 
-                <div class="card-pokemon">
+                <div class="card-pokemon type-fire">
                     <div class="card-top">
                         <div class="details">
                             <h2 class="name">Charmander</h2>
@@ -101,18 +110,18 @@
                         <div class="stats">
                             <h3>Stats</h3>
                             <ul>
-                                <li>HP: 140</li>
-                                <li>Attack: 110</li>
-                                <li>Defense: 90</li>
-                                <li>Sp. Attack: 120</li>
-                                <li>Sp. Defense: 105</li>
-                                <li>Speed: 115</li>
-                                <li>Total: 680</li>
+                                <li><span>HP:</span> 140</li>
+                                <li><span>Attack:</span> 110</li>
+                                <li><span>Defense:</span> 90</li>
+                                <li><span>Sp. Attack:</span> 120</li>
+                                <li><span>Sp. Defense:</span> 105</li>
+                                <li><span>Speed:</span> 115</li>
+                                <li><span>Total:</span> 680</li>
                             </ul>
                         </div>
 
-                        <div class="Attacks">
-                            <h3>Attacks</h3>
+                        <div class="attacks">
+                            <h3>attacks</h3>
                             <ul>
                                 <li>Flamethrower</li>
                                 <li>Dragon Claw</li>
@@ -123,7 +132,7 @@
                     </div>
                 </div>
 
-                <div class="card-pokemon">
+                <div class="card-pokemon type-water">
                     <div class="card-top">
                         <div class="details">
                             <h2 class="name">Gyarados</h2>
@@ -139,17 +148,17 @@
                         <div class="stats">
                             <h3>Stats</h3>
                             <ul>
-                                <li>HP: 200</li>
-                                <li>Attack: 180</li>
-                                <li>Defense: 125</li>
-                                <li>Sp. Attack: 110</li>
-                                <li>Sp. Defense: 160</li>
-                                <li>Speed: 140</li>
-                                <li>Total: 915</li>
+                                <li><span>HP:</span> 200</li>
+                                <li><span>Attack:</span> 180</li>
+                                <li><span>Defense:</span> 125</li>
+                                <li><span>Sp. Attack:</span> 110</li>
+                                <li><span>Sp. Defense:</span> 160</li>
+                                <li><span>Speed:</span> 140</li>
+                                <li><span>Total:</span> 915</li>
                             </ul>
                         </div>
 
-                        <div class="Attacks">
+                        <div class="attacks">
                             <h3>Attacks</h3>
                             <ul>
                                 <li>Waterfall</li>
@@ -161,13 +170,13 @@
                     </div>
                 </div>
 
-                <div class="card-pokemon">
+                <div class="card-pokemon type-ghost">
                     <div class="card-top">
                         <div class="details">
                             <h2 class="name">Gengar</h2>
                             <span>#005</span>
                         </div>
-                        <span class="type">Gengar</span>
+                        <span class="type">Ghost</span>
                         <div class="image">
                             <img src="./src/imagens/gengar.png" alt="Gengar">
                         </div>
@@ -177,17 +186,17 @@
                         <div class="stats">
                             <h3>Stats</h3>
                             <ul>
-                                <li>HP: 160</li>
-                                <li>Attack: 120</li>
-                                <li>Defense: 115</li>
-                                <li>Sp. Attack: 200</li>
-                                <li>Sp. Defense: 130</li>
-                                <li>Speed: 170</li>
-                                <li>Total: 895</li>
+                                <li><span>HP:</span> 160</li>
+                                <li><span>Attack:</span> 120</li>
+                                <li><span>Defense:</span> 115</li>
+                                <li><span>Sp. Attack:</span> 200</li>
+                                <li><span>Sp. Defense:</span> 130</li>
+                                <li><span>Speed:</span> 170</li>
+                                <li><span>Total:</span> 895</li>
                             </ul>
                         </div>
 
-                        <div class="Attacks">
+                        <div class="attacks">
                             <h3>Attacks</h3>
                             <ul>
                                 <li>Shadow Ball</li>
@@ -199,13 +208,13 @@
                     </div>
                 </div>
 
-                <div class="card-pokemon">
+                <div class="card-pokemon type-dragon">
                     <div class="card-top">
                         <div class="details">
                             <h2 class="name">Dragonite</h2>
                             <span>#006</span>
                         </div>
-                        <span class="type">Dragonite</span>
+                        <span class="type">Dragon</span>
                         <div class="image">
                             <img src="./src/imagens/dragonite.png" alt="Dragonite">
                         </div>
@@ -215,17 +224,17 @@
                         <div class="stats">
                             <h3>Stats</h3>
                             <ul>
-                                <li>HP: 195</li>
-                                <li>Attack: 200</li>
-                                <li>Defense: 150</li>
-                                <li>Sp. Attack: 155</li>
-                                <li>Sp. Defense: 150</li>
-                                <li>Speed: 135</li>
-                                <li>Total: 985</li>
+                                <li><span>HP:</span> 195</li>
+                                <li><span>Attack:</span> 200</li>
+                                <li><span>Defense:</span> 150</li>
+                                <li><span>Sp. Attack:</span> 155</li>
+                                <li><span>Sp. Defense:</span> 150</li>
+                                <li><span>Speed:</span> 135</li>
+                                <li><span>Total:</span> 985</li>
                             </ul>
                         </div>
 
-                        <div class="Attacks">
+                        <div class="attacks">
                             <h3>Attacks</h3>
                             <ul>
                                 <li>Outrage</li>
@@ -238,7 +247,34 @@
                 </div>
             </div>
 
-            
+            <nav class="list">
+                <ul>
+                    <li class="pokemon">
+                        <img src="./src/imagens/cabeca-pikachu.png" alt="Pikachu's head">
+                        <span>Pikachu</span>
+                    </li>
+                    <li class="pokemon">
+                        <img src="./src/imagens/cabeca-bulbasaur.png" alt="Bulbassaur's head">
+                        <span>Bulbassaur</span>
+                    </li>
+                    <li class="pokemon">
+                        <img src="./src/imagens/cabeca-charmander.png" alt="Charmander's head">
+                        <span>Charmander</span>
+                    </li>
+                    <li class="pokemon">
+                        <img src="./src/imagens/cabeca-gyarados.png" alt="Gyarados' head">
+                        <span>Gyarados</span>
+                    </li>
+                    <li class="pokemon">
+                        <img src="./src/imagens/cabeca-gengar.png" alt="Gengar's head">
+                        <span>Gengar</span>
+                    </li>
+                    <li class="pokemon">
+                        <img src="./src/imagens/cabeca-dragonite.png" alt="Dragonite's head">
+                        <span>Dragonite</span>
+                    </li>
+                </ul>
+            </nav>
         </div>
     </main>
 
